@@ -1,0 +1,3 @@
+1. If 2 sequences overlap by more than half of either sequence, then it is a match
+2. There is only one unique way to order the DNA sequence fragments.
+3. There are no input sequence of less than 1/2 the length of the next smallest sequence.
