@@ -22,3 +22,21 @@ s2 = Sequence('s2','DAFGHIJBCDEF')
 print s1.canPreceed(s2)
 print s1.canPreceed(s1)
 print s2.canPreceed(s1)
+
+print "==="
+
+s1 = Sequence('s1','ABCD')
+s2 = Sequence('s2','ABCDEF')
+
+print s1.canPreceed(s2)
+print s1.canPreceed(s1)
+print s2.canPreceed(s1)
+
+print "==="
+
+s1 = Sequence('s1','ABCD')
+s2 = Sequence('s2','CDEFGH')
+
+print s1.canPreceed(s2)
+print s1.canPreceed(s1)
+print s2.canPreceed(s1)

@@ -41,6 +41,7 @@ def buildGraph(sequences):
     return (graph, indexMap)
 
 def writeSequenceToFile(sortedList, indexMap, outfileName):
+    print len(sortedList)
     dna = ''
     for i in range(len(sortedList)-1):
         seq = sortedList[i]
